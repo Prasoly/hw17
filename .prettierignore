@@ -1,2 +1,5 @@
 # Ignore artifacts:
-dist
+disc
+
+/tests/ui/e2e-with-fixtures.spec.ts
+/tests/ui/e2e-with-mocks.spec.ts
