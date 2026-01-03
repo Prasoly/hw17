@@ -9,7 +9,7 @@ export class LoginPage {
   readonly signInButton: Locator
   readonly usernameField: Locator
   readonly passwordField: Locator
-// add more locators here
+  // add more locators here
 
   constructor(page: Page) {
     this.page = page
@@ -33,4 +33,3 @@ export class LoginPage {
 
   // continue with the rest of the implementation below
 }
-

@@ -3,7 +3,6 @@ import { LoginPage } from '../pages/login-page'
 import { faker } from '@faker-js/faker/locale/ar'
 import { PASSWORD, USERNAME } from '../../config/env-data'
 
-
 let authPage: LoginPage
 test.beforeEach(async ({ page }) => {
   authPage = new LoginPage(page)
